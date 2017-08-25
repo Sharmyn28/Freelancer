@@ -24,13 +24,13 @@ content.addEventListener("click",function(event){
 	}
 });
 content.addEventListener("mouseover",function(event){
-	if (event.target.tagName == "IMG"){
-		//event.target.style.backgroundColor = '#18bc9c';
+	if (event.target.tagName == "DIV"){
+		event.target.style.backgroundColor = '#18bc9c';
 		//event.target.style.backgroundColor = 'red';
-		var div = document.createElement('div');
-		div.setAttribute('class','div-imageOver');
+		//var div = document.createElement('div');
+		//div.setAttribute('class','div-imageOver');
 		//div.style.backgroundColor = "lightblue";
-		content.appendChild(div);
+		//content.appendChild(div);
 		
 		console.log('funciona');
 	}
